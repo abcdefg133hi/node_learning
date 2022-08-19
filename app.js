@@ -47,7 +47,7 @@ fs.readFile('./apple.txt', 'utf-8', function (err, result)
 }
 )
 
-//http
+/*//http
 const http = require('http')
 
 const server = http.Server((req, res) => {
@@ -55,4 +55,4 @@ const server = http.Server((req, res) => {
     res.end()
 })
 
-server.listen(5000)
+server.listen(5000)*/
